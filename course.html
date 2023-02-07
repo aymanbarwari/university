@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+</head>
+<body >
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="logo.png" ></a>
+                <div class="nav-links" id="nav-links"> 
+                    <img class="close" src="close.png" onclick="hidemenu()">  <!-- bas shasha bchik diyar dkat -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="content.html">Contact</a></li>  
+                    </ul>
+                </div>
+            <img class="menu" src="menu.png" onclick="showmenu()">  <!-- bas shasha bchik diyar dkat -->
+        </nav>
+
+
+        <h1>Our Courses</h1>
+    </section>
+ 
+
+
+<!--------------- Course --------------->
+
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dignissimos unde libero quam. Earum quo quia odio necessitatibus suscipit vel eum, doloribus labore, voluptatibus laborum assumenda tempora magni, dignissimos atque.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dignissimos unde libero quam. Earum quo quia odio necessitatibus suscipit vel eum, doloribus labore, voluptatibus laborum assumenda tempora magni, dignissimos atque.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet dignissimos unde libero quam. Earum quo quia odio necessitatibus suscipit vel eum, doloribus labore, voluptatibus laborum assumenda tempora magni, dignissimos atque.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!--------------- Facilities --------------->
+
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png" >
+            <h3>World Class Library</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque adipisci quo doloribus neque. Blanditiis 
+                numquam voluptatib perferendis?
+            </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="basketball.png" >
+            <h3>Largest Play Ground</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque adipisci quo doloribus neque. Blanditiis 
+                numquam voluptatib perferendis?
+            </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="cafeteria.png" >
+            <h3>Testy And Healthy food</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque adipisci quo doloribus neque. Blanditiis 
+                numquam voluptatib perferendis?
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--------------- Footer --------------->
+
+
+<section class="footer">
+    <h4>About US</h4>
+    <p> 
+        Lorem ipsum dolor sit amet, Beatae architecto,
+        assumenda alias id aut quos nobis similique corporis repellat <br>
+        aliquid corrupti inventore laboriosam eum quam  optio quod consectetur!
+    </p>
+
+    <div class="icon">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+    </div>
+
+    <p>Made with <ion-icon name="heart-outline"></ion-icon>  By Easy Totorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------- java script -------------->
+
+    <script> /*ava bo icone menu o close bon*/
+        var navlinks = document.getElementById("nav-links"); /*ma id l sari da aw menu ya vadbit o ma l vere get kr */
+
+        function showmenu(){   /*ma gote agar l sari ma showmenu onclick kr bla l vere 0 bit anko bla diyar kat*/
+            navlinks.style.right ="0";
+        }
+
+        function hidemenu(){  /* o l vere ji ma gote bla -200px bit bo liye raste anko bla barza bit */
+            navlinks.style.right ="-200px";
+        }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+</head>
+<body >
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="logo.png" ></a>
+                <div class="nav-links" id="nav-links"> 
+                    <img class="close" src="close.png" onclick="hidemenu()">  <!-- bas shasha bchik diyar dkat -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="content.html">Contact</a></li>  
+                    </ul>
+                </div>
+            <img class="menu" src="menu.png" onclick="showmenu()">  <!-- bas shasha bchik diyar dkat -->
+        </nav>
+
+
+        <h1>Contect US</h1>
+    </section>
+ 
+<!--------------- Content  Us--------------->    
+
+<section class="location">
+
+ <!-- Ma af location j google ina duhok map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102160.14221388464!2d42.
+    9949093!3d36.854342700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40088dc9f
+    9b9c571%3A0xf62e38c72158c89b!2sDihok!5e0!3m2!1sen!2siq!4v1662763539319!5m2!1sen!2siq" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+     referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</section>
+
+
+<section class="contact-us">
+
+    <div class="row">
+
+
+        <div class="contact-col">
+            <div>
+                <ion-icon name="home-outline"></ion-icon>
+                <span>
+                    <h5>Duhok,Gali Road</h5>
+                    <p>Grebasee,Mahala Shahida</p>
+                </span>
+            </div>
+
+            <div>
+                <ion-icon name="call-outline"></ion-icon>
+                <span>
+                    <h5>964 750 444 44 44</h5>
+                    <p>Saturday To Thursday</p>
+                </span>
+            </div>
+
+            <div>
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>
+                    <h5>info@aymankk44</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+
+        </div>
+
+
+
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+
+                <input type="text"  name="name" placeholder="Enter Your Name">
+                <input type="email" name="email"  placeholder="Enter Your Email Adress">
+                <input type="text"  name="subject" placeholder="Enter Your Subject">
+
+                <textarea  rows="8" name="message" placeholder="Message"></textarea>
+
+                <button type="submit"  class="hero-btn red-btn"> Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+<!--------------- Footer --------------->
+
+
+<section class="footer">
+    <h4>About US</h4>
+    <p> 
+        Lorem ipsum dolor sit amet, Beatae architecto,
+        assumenda alias id aut quos nobis similique corporis repellat <br>
+        aliquid corrupti inventore laboriosam eum quam  optio quod consectetur!
+    </p>
+
+    <div class="icon">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+    </div>
+
+    <p>Made with <ion-icon name="heart-outline"></ion-icon>  By Easy Totorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------- java script -------------->
+
+    <script> /*ava bo icone menu o close bon*/
+        var navlinks = document.getElementById("nav-links"); /*ma id l sari da aw menu ya vadbit o ma l vere get kr */
+
+        function showmenu(){   /*ma gote agar l sari ma showmenu onclick kr bla l vere 0 bit anko bla diyar kat*/
+            navlinks.style.right ="0";
+        }
+
+        function hidemenu(){  /* o l vere ji ma gote bla -200px bit bo liye raste anko bla barza bit */
+            navlinks.style.right ="-200px";
+        }
+    </script>
+
+
+</body>
+</html>
